@@ -1,5 +1,4 @@
 function verifierMotDePasse(mdp) {
-    // Vérifier la longueur et la présence de @
     if (mdp.length >= 8 && mdp.includes('@')) {
         return true;
     } else {
@@ -7,7 +6,6 @@ function verifierMotDePasse(mdp) {
     }
 }
 
-// Demander à l'utilisateur
 let motDePasse = prompt("Entrez votre mot de passe : ");
 
 if (verifierMotDePasse(motDePasse)) {
