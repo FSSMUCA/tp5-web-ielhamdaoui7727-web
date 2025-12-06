@@ -1,0 +1,11 @@
+let x = "150";
+let y = 150;
+let z = true;
+console.log("Type de x :", typeof x);
+console.log("Type de y :", typeof y);
+console.log("Type de z :", typeof z);
+x = Number(x);
+console.log("Nouveau type de x :", typeof x);
+console.log("Valeur de x :", x);
+console.log("\nExplication : JavaScript est un langage à typage dynamique.");
+console.log("Les variables peuvent changer de type durant l'exécution du programme.");
